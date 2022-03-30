@@ -8,12 +8,12 @@ function Profile() {
         <h3>Зиганшин Алексей</h3>
       </div>
       <div className='posts'>
-        <input placeholder='enter the post' />
+        <input placeholder='Enter the post' />
         <button>Add post</button>
         <div className='post'>
           <div className='post__img'></div>
-          <span>Elon Mask</span>
-          <p>Some text</p>
+          <span className='post__name'>Зиганшин Алексей</span>
+          <p className='post__text'>Some text</p>
         </div>
       </div>
     </div>

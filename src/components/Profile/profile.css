@@ -1,5 +1,6 @@
 .about-me {
   text-align: center;
+  margin-bottom: 32px;
 }
 .about-me img{
   width: 40%;
@@ -7,11 +8,60 @@
 .about-me h3{
   font-size: 22px;
 }
+.posts {
+  padding: 16px 8px;
+  box-shadow: 0 0 8px rgb(0, 48, 102);
+  border-radius: 4px;
+}
+.posts input{
+  width: 300px;
+  padding: 16px;
+  border: 1px solid rgb(0, 48, 102);
+  border-radius: 4px;
+  font-size: 16px; 
+  margin: 0 0 16px 0;
+}
+.posts input:focus{
+  box-shadow: 0 0 8px rgb(0, 48, 102);
+}
+.posts button{
+  width: 150px;
+  padding: 16px;
+  font-size: 16px;
+  background-color: rgb(0, 48, 102);
+  color: white;
+  font-weight: bold;
+  border: 1px solid rgb(0, 48, 102);
+  border-radius: 4px;
+  margin: 0 16px;
+}
+.posts button:hover{
+  background-color: white;
+  color: rgb(0, 48, 102);
+}
 
+.post{
+  padding: 16px 8px;
+  box-shadow: 0 0 8px rgb(0, 48, 102);
+  border-radius: 4px;
+}
 .post__img{
   background-image: url(../../img/about.png);
   width: 50px;
   height: 50px;
   background-size: 220%;
   background-position: center;
+  border-radius: 100%;
+  margin-bottom: 8px;
+  border: 1px solid rgb(0, 48, 102);
 }
+.post__name{
+  font-size: 16px;
+  color: rgb(0, 48, 102);
+}
+.post__text{
+  font-size: 16px;
+  line-height: 140%;
+  font-style: italic;
+}
+
