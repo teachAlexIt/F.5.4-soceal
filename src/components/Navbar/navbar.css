@@ -1,0 +1,11 @@
+.nav a{
+  display: block;
+  padding: 8px;
+  color: black;
+  font-size: 18px;
+  border-radius: 6px;
+}
+.nav a:hover{
+  background-color: black;
+  color: white;
+}
