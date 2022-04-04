@@ -13,21 +13,26 @@ body{
   box-shadow: 0 0 10px rgb(143, 203, 255);
   width: 80vw;
   max-width: 1200px;
+  height: 80vh;
   display: grid;
   grid-template-areas: 
   'header header'
   'nav profile';
   gap: 8px;
   grid-template-columns: 3fr 9fr;
+  grid-template-rows: 10% 89%;
 }
 .header{
   grid-area: header;
 }
 .nav{
   grid-area: nav;
+  height: auto;
 }
 .profile{
   grid-area: profile;
+  height: auto;
+  position: relative;
 }
 .wrapper>div{
   background-color: white;
