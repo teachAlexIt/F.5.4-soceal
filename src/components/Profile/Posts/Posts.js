@@ -9,7 +9,7 @@ function Posts() {
       <button>Add post</button>
       </div>
       <div className='posts__list'>
-        <Post />
+        <Post massage='Test' />
         <Post />
         <Post />
         <Post />
