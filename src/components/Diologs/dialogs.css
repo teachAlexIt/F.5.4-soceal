@@ -1,0 +1,49 @@
+.dialogs{
+  width: 100%;
+  background-image: url(../../img/gialogs-bg.png);
+  background-size: 400px;
+}
+.massages{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.massage{
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+.massage img{
+  display: block;
+  width: 64px;
+}
+.massage__content{
+  background-color: #8fcbff;
+  padding: 8px;
+  border-radius: 4px 4px 4px 0;
+  box-shadow: 4px 4px 4px rgb(4, 71, 129);
+  position: relative;
+  flex-grow: 1;
+}
+.massage__content::after{
+  content: '';
+  width: 10px;
+  height: 10px;
+  display: block;
+  position: absolute;
+  background-image: url(../../img/maggage-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  bottom: 0;
+  left: -10px;
+}
+.massage__content h4{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.massage__content p{
+  font-size: 16px;
+  line-height: 140%;
+}

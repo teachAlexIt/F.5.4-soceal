@@ -10,8 +10,8 @@ function Posts() {
       </div>
       <div className='posts__list'>
         <Post massage='Test' />
-        <Post />
-        <Post />
+        <Post massage='Good' />
+        <Post massage='All good' />
         <Post />
         <Post />
       </div>

@@ -29,10 +29,14 @@ body{
   grid-area: nav;
   height: auto;
 }
+.main-content{
+  display: flex;
+}
 .profile{
   grid-area: profile;
   height: auto;
   position: relative;
+  width: 100%;
 }
 .wrapper>div{
   background-color: white;

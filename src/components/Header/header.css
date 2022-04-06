@@ -1,7 +1,13 @@
 .logo{
-  width: 56px;
+  height: 100%;
   display: inline-block;
+  animation: logoRotate 4s infinite linear;
 }
 .logo img{
-  width: 100%;
+  height: 100%;
+}
+@keyframes logoRotate{
+  100%{
+    transform: rotate(360deg);
+  }
 }
