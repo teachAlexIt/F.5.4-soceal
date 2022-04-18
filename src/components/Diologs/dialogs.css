@@ -3,6 +3,65 @@
   background-image: url(../../img/gialogs-bg.png);
   background-size: 400px;
   display: flex;
+  position: relative;
+  padding: 0;
+}
+.dialogs__list{
+  background-color: rgba(255, 255, 255, 0.603);
+  width: 30%;
+  min-width: 220px;
+  border-radius: 8px;
+  border-right: 1px solid #034a88;
+}
+.dialogs__list a{
+  display: block;
+  background-color: #ffffff;
+  padding: 8px;
+  color: black;
+  font-size: 16px;
+  border-radius: 8px;
+}
+.dialogs__list a:hover{
+  background-color: #03589ea6;
+  color: white;
+}
+.dialogs__list a:focus{
+  background-color: #03589E;
+  color: white;
+}
+.dialogs__managment{
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 8px;
+  background-color: #8fcbff;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.dialogs__managment textarea{
+  flex-grow: 1;
+  padding: 8px;
+  resize: vertical;
+  max-height: 160px;
+  min-height: 48px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+.dialogs__managment textarea::-webkit-scrollbar{
+  width: 4px;
+}
+.dialogs__managment textarea::-webkit-scrollbar-thumb{
+  background-color: #034a88;
+}
+.dialogs__managment button{
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  background-color: #034a88;
+  color: white;
 }
 .massages{
   display: flex;
@@ -10,7 +69,8 @@
   gap: 16px;
   flex-grow: 1;
   overflow-y: auto;
-  padding: 0 8px;
+  padding: 8px 8px 0;
+  position: relative;
 }
 .massages::-webkit-scrollbar{
   width: 5px;

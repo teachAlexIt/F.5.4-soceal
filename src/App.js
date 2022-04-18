@@ -8,12 +8,12 @@ function App() {
   return (
     <div className='wrapper'>
       <BrowserRouter>
-      <Header />
-      <Nav />
-      <div className='main-content'>
-        <Route path='/profile' component={Profile} />
-        <Route path='/dialogs' component={Dialogs} />
-      </div>
+        <Header />
+        <Nav />
+        <div className='main-content'>
+          <Route path='/profile' component={Profile} />
+          <Route path='/dialogs' component={Dialogs} />
+        </div>
       </BrowserRouter>
     </div>
   );

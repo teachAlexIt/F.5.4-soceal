@@ -12,7 +12,12 @@ function Massages() {
       <Massage img={Img} name='Alex' text='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae officia nobis et architecto similique provident neque incidunt praesentium, minima velit, in voluptatibus doloribus laboriosam optio est soluta culpa dolor quaerat saepe illum, dolorum consectetur facilis? Quas porro quam quia modi, ips error corporis?'/>
       <Massage img={Img} name='Alex' text='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae officia nobis et architecto similique provident neque incidunt praesentium, minima velit, in voluptatibus doloribus laboriosam optio est soluta culpa dolor quaerat saepe illum, dolorum consectetur facilis? Quas porro quam quia modi, ips error corporis?'/>
       <Massage img={Img} name='Alex' text='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae officia nobis et architecto similique provident neque incidunt praesentium, minima velit, in voluptatibus doloribus laboriosam optio est soluta culpa dolor quaerat saepe illum, dolorum consectetur facilis? Quas porro quam quia modi, ips error corporis?'/>
-
+      <div className='dialogs__managment'>
+        <textarea placeholder='massage'/>
+        <button type='submit'>
+          <i class="fa-solid fa-angle-up"></i>
+        </button>
+      </div>
     </div>
   )
 }
